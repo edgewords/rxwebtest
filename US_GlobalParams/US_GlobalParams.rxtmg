@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="9.0">
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="US_GlobalParams"
+      id="366276d4-52b4-4973-b11f-88da0daa28f4"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="US_GlobalParams"
+      id="366276d4-52b4-4973-b11f-88da0daa28f4"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>
