@@ -82,43 +82,45 @@ namespace US_GlobalParams
             Recording1_Open_browser();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'AutomatedToolsTestSite.Forms' at 18;6.", repo.AutomatedToolsTestSite.FormsInfo, new RecordItemIndex(1));
+            Report.Log(ReportLevel.Info, "User", "Starting the Test", new RecordItemIndex(1));
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'AutomatedToolsTestSite.Forms' at 18;6.", repo.AutomatedToolsTestSite.FormsInfo, new RecordItemIndex(2));
             repo.AutomatedToolsTestSite.Forms.Click("18;6");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Forms.TextInput' at 101;16.", repo.Forms.TextInputInfo, new RecordItemIndex(2));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Forms.TextInput' at 101;16.", repo.Forms.TextInputInfo, new RecordItemIndex(3));
             repo.Forms.TextInput.Click("101;16");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'hello' with focus on 'Forms.TextInput'.", repo.Forms.TextInputInfo, new RecordItemIndex(3));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'hello' with focus on 'Forms.TextInput'.", repo.Forms.TextInputInfo, new RecordItemIndex(4));
             repo.Forms.TextInput.PressKeys("hello");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Forms.TextArea' at 54;21.", repo.Forms.TextAreaInfo, new RecordItemIndex(4));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Forms.TextArea' at 54;21.", repo.Forms.TextAreaInfo, new RecordItemIndex(5));
             repo.Forms.TextArea.Click("54;21");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'test' with focus on 'Forms.TextArea'.", repo.Forms.TextAreaInfo, new RecordItemIndex(5));
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'test' with focus on 'Forms.TextArea'.", repo.Forms.TextAreaInfo, new RecordItemIndex(6));
             repo.Forms.TextArea.PressKeys("test");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Forms.Submit' at 43;17.", repo.Forms.SubmitInfo, new RecordItemIndex(6));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Forms.Submit' at 43;17.", repo.Forms.SubmitInfo, new RecordItemIndex(7));
             repo.Forms.Submit.Click("43;17");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='tom_millichamphello') on item 'Forms.TextInputValue'.", repo.Forms.TextInputValueInfo, new RecordItemIndex(7));
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='tom_millichamphello') on item 'Forms.TextInputValue'.", repo.Forms.TextInputValueInfo, new RecordItemIndex(8));
             Validate.AttributeEqual(repo.Forms.TextInputValueInfo, "InnerText", "tom_millichamphello");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Forms.BackToForm' at 58;17.", repo.Forms.BackToFormInfo, new RecordItemIndex(8));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Forms.BackToForm' at 58;17.", repo.Forms.BackToFormInfo, new RecordItemIndex(9));
             repo.Forms.BackToForm.Click("58;17");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Forms.Home' at 14;7.", repo.Forms.HomeInfo, new RecordItemIndex(9));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Forms.Home' at 14;7.", repo.Forms.HomeInfo, new RecordItemIndex(10));
             repo.Forms.Home.Click("14;7");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'AutomatedToolsTestSite'.", repo.AutomatedToolsTestSite.SelfInfo, new RecordItemIndex(10));
+            Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'AutomatedToolsTestSite'.", repo.AutomatedToolsTestSite.SelfInfo, new RecordItemIndex(11));
             Host.Current.CloseApplication(repo.AutomatedToolsTestSite.Self, new Duration(0));
             Delay.Milliseconds(0);
             

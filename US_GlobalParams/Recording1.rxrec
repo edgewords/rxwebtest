@@ -42,6 +42,18 @@ rxversion="9.0">
 			id="f9360637-00c9-4b2c-b112-7ca1c0c9a5de">
 			</arguments>
 		</userrecorditem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message="Starting the Test"
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="a752e954-3a3c-4a4c-bef5-07faf46e4dea">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</loggingrecorditem>
 		<mouseitem
 		action="Click"
 		button="Left"
