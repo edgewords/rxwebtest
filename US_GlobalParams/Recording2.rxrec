@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="102270fe-17e7-4656-9137-4e3b439cb25b"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording2"
+	namespace="US_GlobalParams">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message="hello"
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="2545a9bf-e589-4b48-a764-cc1099af097f">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</loggingrecorditem>
+	</recorditems>
+	<repository
+	id="6604a702-5cdf-46dd-a078-2b4b886c71ff"
+	name="US_GlobalParamsRepository"
+	relativepath="US_GlobalParamsRepository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="US_GlobalParamsRepository"
+		namespace="US_GlobalParams">
+		</codegen>
+		<rootfolder
+		id="e236fb15-e2b4-4379-a04e-6f8b7f9de398"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording2.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
