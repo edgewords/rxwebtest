@@ -26,18 +26,6 @@ rxversion="9.0">
 	<variables>
 	</variables>
 	<recorditems>
-		<loggingrecorditem
-		category="User"
-		enabled="True"
-		message="This is a user msg"
-		optional="False"
-		reportlevel="Info;20"
-		searchpropertyid="4c523e36-bb27-4d64-aecd-e6522b6a6992">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-		</loggingrecorditem>
 		<userrecorditem
 		classname="Recording1"
 		enabled="True"
