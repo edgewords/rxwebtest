@@ -122,6 +122,8 @@ namespace US_GlobalParams
             Host.Current.CloseApplication(repo.AutomatedToolsTestSite.Self, new Duration(0));
             Delay.Milliseconds(0);
             
+            Report.Log(ReportLevel.Info, "User", "end of test", new RecordItemIndex(11));
+            
         }
 
 #region Image Feature Data

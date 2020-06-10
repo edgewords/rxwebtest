@@ -1310,6 +1310,18 @@ QoqaigD/2Q==
 				</path>
 			</info>
 		</closeapprecorditem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message="end of test"
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="4d31e51f-f75d-4cac-a8c4-0bd40e5b9574">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</loggingrecorditem>
 	</recorditems>
 	<repository
 	id="6604a702-5cdf-46dd-a078-2b4b886c71ff"
